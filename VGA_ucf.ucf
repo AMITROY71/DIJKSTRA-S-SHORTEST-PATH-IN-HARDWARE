@@ -1,0 +1,54 @@
+NET "clk_in" LOC = "B8"; # Bank = 0, Signal name = MCLK
+
+NET "seven_segment<6>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "seven_segment<5>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "seven_segment<4>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "seven_segment<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "seven_segment<2>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "seven_segment<1>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "seven_segment<0>" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "dp" LOC = "N13"; # Bank = 1, Signal name = DP
+
+NET "an<0>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "an<1>" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "an<2>" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "an<3>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+# Pin assignment for LEDs
+#NET "Led<0>" LOC = "G1" ; # Bank = 3, Signal name = LD7
+#NET "Led<1>" LOC = "P4" ; # Bank = 2, Signal name = LD6
+#NET "Led<2>" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+#NET "Led<3>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+#NET "Led<4>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+#NET "Led<5>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+#NET "Led<6>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+#NET "Led<7>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+# Pin assignment for SWs
+NET "sw<0>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "sw<1>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "sw<2>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "sw<3>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "sw<4>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "sw<5>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "sw<6>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "sw<7>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "reset" LOC = "A7";  # Bank = 1, Signal name = BTN3
+
+
+#NET "ps2c"    LOC = "B1"   | DRIVE = 2  | PULLUP ; # Bank = 3, Signal name = PS2C
+#NET "ps2d"    LOC = "C3"   | DRIVE = 2  | PULLUP ; # Bank = 3, Signal name = PS2D
+
+# Pin assignment for VGA
+NET "hsync"   LOC = "J14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = HSYNC
+NET "vsync"   LOC = "K13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = VSYNC
+
+NET "red<0>"  LOC = "F13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED2
+NET "red<1>"  LOC = "D13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED1
+NET "red<2>"  LOC = "C14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED0
+NET "green<0>"  LOC = "G14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN2
+NET "green<1>"  LOC = "G13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN1 
+NET "green<2>"  LOC = "F14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN0 
+NET "blue<0>"  LOC = "J13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU2
+NET "blue<1>"  LOC = "H13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU1 
